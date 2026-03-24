@@ -57,7 +57,7 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy:.2%}\n")
 
-# Feature importance to show which factors drive the risk of divorce
+# Feature importance to show which factors drive the risk of default
 
 print("Feature Importance (what drives default risk):")
 importance = pd.DataFrame({
